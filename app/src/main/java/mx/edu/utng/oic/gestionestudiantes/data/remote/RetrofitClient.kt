@@ -16,7 +16,7 @@ object RetrofitClient {
     // IMPORTANTE: Cambia esta URL por la de tu servidor
     // Si estás en un emulador, usa 10.0.2.2 en lugar de localhost
     // Si estás en un dispositivo físico, usa la IP de tu computadora
-    private const val BASE_URL = "http://192.168.1.230:8000/"
+    private const val BASE_URL = "http://10.0.2.2:8000/"
     /**
      * Interceptor para logging (útil para debugging)
      * Registra todas las peticiones y respuestas en Logcat
